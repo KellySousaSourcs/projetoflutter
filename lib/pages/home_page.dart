@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         shape: CircleBorder(),
-        child: const Icon(Icons.add_box),
+        child: Icon(Icons.favorite_border, color: Colors.pink.shade300),
         onPressed: () {
           setState(() {
             numeroGerado =
